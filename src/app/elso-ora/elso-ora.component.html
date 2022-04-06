@@ -17,4 +17,7 @@ abban megjelenített változók bármelyike változik, automatikusan újraérté
 </div>
 
 <!-- Próbáljuk ki mi történik, ha a userInputnak van értéke és mi történik ha nincs, vagy üres string! -->
-<a [routerLink]="['/parameter/' + userInput]">Át a ParaméterPróbára</a>
+<a [routerLink]="['/parameter/' + userInput, { korabbi: lista }]"
+  >Át a ParaméterPróbára</a
+>
+<!-- a route után megadott objektum opcionális paraméter, az url részeként kerül majd átküldésre a másik komponensnek, de a megléte nem kötelező, nincs ellenőrizve -->
