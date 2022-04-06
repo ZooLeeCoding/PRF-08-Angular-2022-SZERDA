@@ -15,3 +15,6 @@ abban megjelenített változók bármelyike változik, automatikusan újraérté
     <li *ngFor="let l of lista" (click)="removeElement(l)">{{ l }}</li>
   </ul>
 </div>
+
+<!-- Próbáljuk ki mi történik, ha a userInputnak van értéke és mi történik ha nincs, vagy üres string! -->
+<a [routerLink]="['/parameter/' + userInput]">Át a ParaméterPróbára</a>

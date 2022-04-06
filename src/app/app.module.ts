@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { ElsoOraComponent } from './elso-ora/elso-ora.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorComponent } from './error/error.component';
+import { ParameterProbaComponent } from './parameter-proba/parameter-proba.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
@@ -15,6 +16,7 @@ import { ErrorComponent } from './error/error.component';
     HelloComponent,
     ElsoOraComponent,
     ErrorComponent,
+    ParameterProbaComponent,
   ],
   bootstrap: [AppComponent],
 })
